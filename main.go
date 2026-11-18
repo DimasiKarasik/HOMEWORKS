@@ -21,7 +21,6 @@ const (
 )
 
 func main() {
-	// Шаг 1: Генерируем файл с 10 000 строк
 	if err := generateLogFile(logFileName, totalLines); err != nil {
 		fmt.Printf("Ошибка создания файла: %v\n", err)
 		return
